@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  basePath: '/demo-drainer',
+  // Ensure that links and static assets are correctly prefixed
+  trailingSlash: true, 
 };
 
 export default nextConfig;
