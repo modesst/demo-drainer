@@ -5,9 +5,9 @@
 This is a modern Web3 application built with **Next.js (App Router)** + **RainbowKit** + **Wagmi v2** + **Viem** to demonstrate how crypto drainers exploit **token approvals** and **permit signatures** (ERC-20/EIP-2612).
 
 ## Hosting Details
-The app is configured to run on a subpath: `/demo-drainer`. 
-- Local development: `http://localhost:3000/demo-drainer/`
-- Production: `benshak.dev-vercel.com/demo-drainer/`
+The app is deployed to Vercel at the root domain.
+- Local development: `http://localhost:3000/`
+- Production: `https://demo-drainer.vercel.app/`
 
 ## Educational Flow
 1. **The Connect Step:** Connect your wallet (RESTRICTED TO SEPOLIA TESTNET).
